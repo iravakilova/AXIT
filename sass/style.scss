@@ -1,0 +1,27 @@
+// @import "reset"
+// @import "core"
+// @import "navbar"
+// @import "header"
+// @import "brandbar"
+// @import "process"
+// @import "pricing"
+// @import "testimonials"
+// @import "custom"
+// @import "contact"
+// @import "footer"
+
+$header-color: #ffff;
+$bg-color: #0000;
+
+body{
+    background-color: $bg-color;
+}
+.block{
+    background-color: $header-color;
+    h1{
+        color: $bg-color: #0000;
+    }
+    a{
+        color: green;
+    }
+}
