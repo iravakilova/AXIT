@@ -1,0 +1,30 @@
+.process {
+  .process__article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 30px 105px;
+  }
+  .process__icon {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 30px;
+  }
+  .process__title {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+  .process__text {
+    width: 350px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+  }
+}

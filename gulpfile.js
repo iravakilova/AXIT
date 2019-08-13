@@ -52,7 +52,7 @@ gulp.task('fileinclude', function() {
     gulp.src('./pages/**/*.html')
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: '@file'
+            basepath: './templates/'
         }).on('error', gutil.log))
         .on('error', notify.onError())
         .pipe(gulp.dest('./'))
