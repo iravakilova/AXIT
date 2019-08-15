@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AXIT</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
@@ -11,7 +12,7 @@
 </head>
 <body>
 
-<div class="navbar"> 
+<div class="navbar">
     <div class="menu-logo">
         <img src="./img/Logo.png" alt="logo">
     </div>
@@ -24,6 +25,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
+    <img class="burger-menu" src="./icon/burger-menu.png"> 
 </div>
 <header class="header">
     <div class="prewiew">
@@ -39,43 +41,43 @@
             <button><a href="#">Download</a></button>
         </form>
     </div>
-    <form class="signup">
+    <div class="signup">
         <h2 class="signup__title">Try Your <span class="signup_colortext">FREE</span> Trial Today</h2>
-        <div class="signup__input">
+        <form class="signup__input">
             <input type="text" placeholder="Name">
-        </div>
-        <div class="signup__input">
+        </form>
+        <form class="signup__input">
             <input type="text" placeholder="Email">
-        </div>
-        <div class="signup__input">
+        </form>
+        <form class="signup__input">
             <input type="text" placeholder="Password">
-        </div>
-        <div  class="signup__button">
+        </form>
+        <form  class="signup__button">
             <button><a href="#">Get Started</a></button>
-        </div>
-    </form>
+        </form>
+    </div>
 </header>
 <!-- brandbar -->
 
 <section class="brandbar">
-        <div>
-            <h2 class="brandbar__title">Social Media</h2>
-            <p class="brandbar__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean euismod bibendum laoreet.</p>
-        </div>
-        <div class="brandbar__icons">
-            <a href="#"><img src="icon/facebook.png" alt=""></a>
-            <a href="#"><img src="icon/twitter.png" alt=""></a>
-            <a href="#"><img src="icon/google.png" alt=""></a>
-            <a href="#"><img src="icon/pinterest.png" alt=""></a>
-            <a href="#"><img src="icon/instagram.png" alt=""></a>
-            <a href="#"><img src="icon/socialstumble.png" alt=""></a>
-            <a href="#"><img src="icon/rss.png" alt=""></a>
-        </div>
-    </section>
+    <div>
+        <h2 class="brandbar__title">Social Media</h2>
+        <p class="brandbar__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean euismod bibendum laoreet.</p>
+    </div>
+    <div class="brandbar__icons">
+        <a href="#"><img src="icon/facebook.png" alt=""></a>
+        <a href="#"><img src="icon/twitter.png" alt=""></a>
+        <a href="#"><img src="icon/google.png" alt=""></a>
+        <a href="#"><img src="icon/pinterest.png" alt=""></a>
+        <a href="#"><img src="icon/instagram.png" alt=""></a>
+        <a href="#"><img src="icon/socialstumble.png" alt=""></a>
+        <a href="#"><img src="icon/rss.png" alt=""></a>
+    </div>
+</section>
 <!-- feature -->
 
 <section class="featureone">
-    <form>
+    <form class="featureone__tab">
         <div>
             <button class="tap-model"><a href="#">TAB 1</a></button>
         </div>
@@ -87,7 +89,7 @@
         </div> 
     </form>
     <div class="feature">
-        <h2 class="feature__title">Tabs with soft transitioning effect.</h2>
+        <h2 class="feature__title">Tabs with soft transitioning effect</h2>
         <p class="feature__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
             bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
             justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
@@ -102,6 +104,7 @@
         <img src="img/image_right_u255.png" alt="">
     </div>
 </section>
+
 <section class="featuretwo">
     <div class="feature-screen">
         <img src="img/image_left_sub_list_u260.png" alt="">
@@ -113,24 +116,19 @@
             euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
             accumsan et viverra justo commodo.</p>
         <div class="feature-sublist">
-            <div class="icon_upload">
-                <img src="icon/list_icon_upload.png" alt="" >
-            </div>
-            <div class="feature-art">
-                <h3 class="feature__subtitle">Title</h3>
-                <p class="feature__subdescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Aenean euismod bibendum laoreet.</p>
-            </div>
-            <div class="feature-art">
-                <img src="icon/list_icon_upload.png" alt="" class="icon_upload">
-                <h3 class="feature__subtitle">Title</h3>
-                <p class="feature__subdescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Aenean euismod bibendum laoreet. Proin gravida dolor 
-                        sit amet lacus accumsan et viverra justo commodo.</p>
-            </div>
+            <img src="icon/list_icon_upload.png" alt="" class="icon_upload">
+            <h3 class="feature__subtitle">Title</h3>
+            <p class="feature__subdescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet. </p>
+            <img src="icon/list_icon_upload.png" alt="" class="icon_upload">
+            <h3 class="feature__subtitle">Title</h3>
+            <p class="feature__subdescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet. Proin gravida dolor 
+                    sit amet lacus accumsan et viverra justo commodo.</p>
         </div>
     </div>
 </section>
+
 <section class="featurethree">
     <div class="feature">
         <h2 class="feature__title">Standard Picture Section</h2>
@@ -145,7 +143,7 @@
     <div class="feature-screen">
         <img src="img/image_right_standard_u262.png" alt="">
     </div>
-</section>    
+</section>      
     <!-- process -->
 
 <section class="process">
@@ -326,8 +324,6 @@
         <button><a href="#">Download</a></button>
     </form>
 </section>
-<!-- contact -->
-
 <section class="contact">
     <h1 class="great-title">CONTACT US</h1>
     <img src="img/divider_orange_u7_copy_3.png" alt="" class="divider-orange">
@@ -353,17 +349,17 @@
     </form>
 </section>
 <footer class="footer">
-        <div class="footer__icons">
-            <a href="#"><img src="icon/facebook.png" alt=""></a>
-            <a href="#"><img src="icon/twitter.png" alt=""></a>
-            <a href="#"><img src="icon/google.png" alt=""></a>
-            <a href="#"><img src="icon/pinterest.png" alt=""></a>
-            <a href="#"><img src="icon/instagram.png" alt=""></a>
-            <a href="#"><img src="icon/socialstumble.png" alt=""></a>
-            <a href="#"><img src="icon/rss.png" alt=""></a>
-        </div>
-        <p class="footer-text">© 2015 Axure Themes</p>
-    </footer>
+    <div class="footer__icons">
+        <a href="#"><img src="icon/facebook.png" alt=""></a>
+        <a href="#"><img src="icon/twitter.png" alt=""></a>
+        <a href="#"><img src="icon/google.png" alt=""></a>
+        <a href="#"><img src="icon/pinterest.png" alt=""></a>
+        <a href="#"><img src="icon/instagram.png" alt=""></a>
+        <a href="#"><img src="icon/socialstumble.png" alt=""></a>
+        <a href="#"><img src="icon/rss.png" alt=""></a>
+    </div>
+    <p class="footer-text">© 2015 Axure Themes</p>
+</footer>
 
 </body>
 </html>

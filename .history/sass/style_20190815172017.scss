@@ -1,0 +1,99 @@
+@import "reset";
+@import "core";
+@import "navbar";
+@import "header";
+@import "brandbar";
+@import "features";
+@import "process";
+@import "pricing";
+@import "testimonials";
+@import "custom";
+@import "contact";
+@import "footer";
+
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.divider-white{
+    width: 74px;
+    height: 16px;
+}
+.divider-orange{
+    width: 64px;
+    height: 2px;
+    padding: 30px 0px;
+ }
+ .process,
+ .testimonials,
+ .contact{
+    width: 100%;
+    background-color: #ffff;
+    text-align: center;
+ }
+ .great-title{
+    color: #212121;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-transform: uppercase;
+    padding-top: 108px;
+    margin: 0;
+ }
+.great-descr{
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 420px){
+    body {
+        width: 1400px;
+        margin: 0 auto;
+      }
+      
+      .divider-white {
+        width: 64px;
+        height: 16px;
+      }
+      
+      .divider-orange {
+        width: 64px;
+        height: 2px;
+        padding: 10px 0px;
+      }
+      
+      .process, .pricing, .contact {
+        width: 100%;
+        max-width: 420px;
+        background-color: #ffff;
+        text-align: center;
+      }
+      
+      .great-title {
+        max-width: 420px;
+        color: #212121;
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 43px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        margin: 0;
+      }
+      
+      .great-descr {
+        max-width: 420px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0;
+      }
+}

@@ -1,0 +1,37 @@
+// brandbar
+
+.brandbar {
+  width: 100%;
+  background: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px 0;
+  .brandbar__title {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 12px;
+  }
+  .brandbar__descr {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .brandbar__icons {
+    width: 635px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px){
+  
+}
