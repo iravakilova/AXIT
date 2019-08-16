@@ -79,3 +79,52 @@
     }
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .custom {
+    width: 100%;
+    max-width: 1024px;
+    background-image: url(/img/u25_state0.png);
+    text-align: center;
+    background-size: cover;
+    .custom__title {
+      width: 100%;
+      color: #ffff;
+      font-family: "Raleway";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 40px;
+      text-transform: uppercase;
+      padding: 20px 0;
+      display: block;
+      margin: 0 auto;
+    }
+    .custom__descr {
+      width: 100%;
+      opacity: 0.8;
+      color: #ffff;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    .custom__button {
+      padding-bottom: 40px;
+      button {
+        border: 1px solid #ffff;
+        padding: 10px 20px;
+        background: transparent;
+        a {
+          font-family: "Open Sans - Semibold";
+          font-size: 15px;
+          font-weight: 400;
+          text-decoration: none;
+          color: #ffff;
+        }
+      }
+    }
+  }
+}
